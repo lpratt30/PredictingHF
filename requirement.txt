@@ -1,0 +1,17 @@
+﻿fastjsonschema==2.17.1
+gensim==4.3.2
+imbalanced-learn==0.11.0
+joblib==1.1.1
+matplotlib==3.7.2
+matplotlib-inline==0.1.6
+nltk==3.8.1
+numpy==1.24.3
+pandas==2.1.2
+scikit-learn==1.3.0
+scikit-optimize==0.9.0
+scipy==1.11.1
+seaborn==0.12.2
+transformers==4.35.0
+datasets==2.14.6
+accelerate==0.24.1
+imblearn==0.0
