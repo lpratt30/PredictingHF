@@ -29,6 +29,6 @@ Once you have the CSV file and the pre-trained model downloaded and placed in th
 
 ### Authors
 * **Pratt, Luke O (pratt.o.luke@gmail.com)** 
-* **Siddiqui, Muhammad N (msiddiqui43@gatech.edu)** 
+* **Siddiqui, Muhammad N (najamsaqib@gmail.com)** 
 
 
