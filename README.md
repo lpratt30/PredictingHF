@@ -1,5 +1,3 @@
-# Big Data for Healthcare Final Project
-
 ## Brief Description
 We seek to reproduce ["Predicting Heart Failure Readmission from Clinical Notes Using Deep Learning"](https://ieeexplore.ieee.org/document/8983095) . In this paper, they attempt to predict heart failure readmission or 30-day readmission using clinical notes from the MIMIC-III v1.4 database without doing any feature engineering. They do so by training a CNN model on word2vec vectorized words from the notes, and achieve an F1 score of 0.756 in the general readmission case and 0.733 for 30-day readmission. 
 
