@@ -7,7 +7,7 @@ We seek to reproduce ["Predicting Heart Failure Readmission from Clinical Notes 
 
 Traditionally, such analysis has been done by many intensively hand-crafted features. Their main contribution is in creating a model with powerful predictive capability that does not require expert crafted features. They also baseline on Random Forest, and use Chi-squared feature analysis to give some interpretation as to what their model believes words to mean.
 
-Our reproduction achieved slightly different results. Notably, our baseline model was comparable to the CNN after some hyperparameter tuning, while our CNN did not perform as well as the original paper's CNN. 
+Our reproduction achieved slightly different results. Notably, the F1 score of our baseline model was comparable to the paper's CNN after some hyperparameter tuning, while our CNN did not perform as well as the original paper's CNN. 
 
 
 ## Installation Instructions
