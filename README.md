@@ -1,10 +1,13 @@
-[Read the paper](https://github.com/lpratt30/PredictingHF/blob/main/final_report.pdf)
+## Read the paper
+[PDF Link](https://github.com/lpratt30/PredictingHF/blob/main/final_report.pdf)
 
 
 ## Brief Description
 We seek to reproduce ["Predicting Heart Failure Readmission from Clinical Notes Using Deep Learning"](https://ieeexplore.ieee.org/document/8983095) . In this paper, they attempt to predict heart failure readmission or 30-day readmission using clinical notes from the MIMIC-III v1.4 database without doing any feature engineering. They do so by training a CNN model on word2vec vectorized words from the notes, and achieve an F1 score of 0.756 in the general readmission case and 0.733 for 30-day readmission. 
 
 Traditionally, such analysis has been done by many intensively hand-crafted features. Their main contribution is in creating a model with powerful predictive capability that does not require expert crafted features. They also baseline on Random Forest, and use Chi-squared feature analysis to give some interpretation as to what their model believes words to mean.
+
+Our reproduction achieved slightly different results. Notably, our baseline model was comparable to the CNN after some hyperparameter tuning, while our CNN did not perform as well as the original paper's CNN. 
 
 
 ## Installation Instructions
